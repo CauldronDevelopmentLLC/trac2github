@@ -1,5 +1,5 @@
 # trac2github
-A Python script to convert Trac tickets to GitHub issues with a few limitations.
+A Python script to convert Trac tickets to GitHub issues with a few limitations. Inspired by (trac2github.php)[https://github.com/trustmaster/trac2github].
 
 # Limitations
  * Works with new GitHub preview API (codenamed golden-comet-preview)
