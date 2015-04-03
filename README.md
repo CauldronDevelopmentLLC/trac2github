@@ -60,3 +60,7 @@ The above will:
  * Copy all issues and their comments from Trac to GitHub.
 
 Note that the process will abort if any tickets fail and ```--preserve-ids``` is enabled.  This is because failed tickets will mess up the order.
+
+The ```user_map.json``` file is simply a JSON file containing a dictionary of strings.  If a name is not found in this dictionary the original name will be used.
+
+If an issues's **assignee** is not a member of a team with write access to the repo the issue will fail to upload.
